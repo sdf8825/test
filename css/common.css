@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*googleips 웹폰트 css 파일 불러오기*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+/*font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Galada', cursive; 
+font-family: 'Tenali Ramakrishna', sans-serif;*/
+
+/* 저장된 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;    
+                src : url(../font/NanumGothic.ttf) ; }  */
+/* 웹사이트의 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;    
+                src : url(http://uhbee.com/nanum.eot) ; }   */
+
+
+* {margin:0; padding:0;}
+html{font-size:16px;}
+body{ font-size:16px;
+      color:#6f6f6f;
+      font-family: 'Nanum Gothic', sans-serif }
+ul, ol, li{list-style-type:none}
+img, fieldset{border:none;vertical-align: middle}
+hr {clear:both;border:none}
+a {color:inherit;text-decoration:none} /*inherit:부모 글자 따라감*/
+table{border-collapse:collapse} 
+input, textarea {color:inherit;font-size:inherit;
+       font-family:inherit;
+       vertical-align: middle} /*vertical-align은 table input textarea에서만 사용가능*/
+button{outline:0} /*테두리 없애기*/
